@@ -226,7 +226,7 @@ txt f string rgb = Text.fromString string |> Text.color rgb |> Text.monospace |>
 txtBold f string rgb = Text.fromString string |> Text.bold |> Text.color rgb |> Text.monospace |> f |> leftAligned
 
 msg = "SPACE to start, WASD and &uarr;&larr;&darr;&rarr; to move"
-title = "MarketInvoice Foo.bool"
+title = "MarketInvoice Foo.bool v0.2"
 pitchGreen = rgb 100 140 100
 textGreen = rgb 160 200 160
 field = rect gameWidth gameHeight |> filled pitchGreen
